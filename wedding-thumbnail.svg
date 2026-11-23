@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fffaf0"/><stop offset=".55" stop-color="#f8e7dc"/><stop offset="1" stop-color="#f4d8d8"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff0bd"/><stop offset=".45" stop-color="#c99a45"/><stop offset="1" stop-color="#8c5b2e"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<circle cx="70" cy="70" r="190" fill="url(#glow)"/><circle cx="1120" cy="550" r="250" fill="url(#glow)"/>
+<g fill="none" stroke="url(#gold)" stroke-width="3" opacity=".8"><path d="M180 135H470M730 135h290"/><path d="M180 500H1020"/></g>
+<g fill="#d58b9b" opacity=".75"><circle cx="95" cy="210" r="18"/><circle cx="125" cy="180" r="13"/><circle cx="1080" cy="190" r="20"/><circle cx="1045" cy="220" r="13"/><circle cx="200" cy="540" r="11"/><circle cx="1000" cy="540" r="11"/></g>
+<g fill="#fff" opacity=".75"><circle cx="250" cy="90" r="5"/><circle cx="930" cy="80" r="7"/><circle cx="1050" cy="390" r="5"/><circle cx="140" cy="390" r="6"/><circle cx="600" cy="70" r="5"/></g>
+<g fill="none" stroke="url(#gold)" stroke-width="5"><path d="M565 115c-48-42-91 18-50 55l85 72 85-72c41-37-2-97-50-55l-35 32z"/></g>
+<text x="600" y="300" text-anchor="middle" font-family="serif" font-size="74" font-weight="700" fill="#784b37">민호 ♥ 혜원</text>
+<text x="600" y="405" text-anchor="middle" font-family="serif" font-size="86" font-weight="700" fill="#a87835">결혼 축하 룰렛</text>
+<text x="600" y="465" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#986e69">행운의 룰렛을 돌려보세요</text>
+<g fill="none" stroke="#c99a45" stroke-width="3"><circle cx="600" cy="550" r="26"/><circle cx="620" cy="550" r="26"/></g>
+</svg>
