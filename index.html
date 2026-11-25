@@ -20,60 +20,56 @@
 <meta name="twitter:image" content="https://wedding-roulette.pages.dev/wedding-thumbnail.svg">
 <title>민호 ❤️ 혜원 결혼 축하 룰렛</title>
 <style>
-:root{--ink:#68404b;--rose:#b85e75;--gold:#c79a45;--cream:#fffaf3;--pink:#f8e4e7;box-sizing:border-box}
+:root{--ink:#4d4742;--rose:#a86f72;--gold:#b59a70;box-sizing:border-box}
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
-body{min-height:100svh;overflow-x:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:17px;padding:32px 18px 40px;color:var(--ink);background:radial-gradient(ellipse at 50% 0%,#fff 0%,#fff7f4 42%,#f8e8e7 100%);position:relative}
-body:before,body:after{content:"";position:fixed;width:260px;height:260px;border:1px solid rgba(199,154,69,.23);border-radius:50%;pointer-events:none}
-body:before{top:-155px;left:-130px;box-shadow:0 0 0 18px rgba(255,255,255,.18),0 0 0 38px rgba(199,154,69,.08)}
-body:after{right:-145px;bottom:-155px;box-shadow:0 0 0 18px rgba(255,255,255,.18),0 0 0 38px rgba(199,154,69,.08)}
-main{width:min(100%,520px);display:flex;flex-direction:column;align-items:center;gap:17px;text-align:center;position:relative;z-index:1;padding:30px 20px 27px;border:1px solid rgba(199,154,69,.45);border-radius:28px;background:rgba(255,255,255,.72);box-shadow:0 18px 55px rgba(126,70,82,.12),inset 0 0 0 5px rgba(255,255,255,.75);backdrop-filter:blur(8px)}
-.kicker{font-family:Georgia,serif;font-size:.76rem;letter-spacing:.28em;color:var(--gold);text-transform:uppercase}
-h1{margin:0;color:#85485a;font-family:"Noto Serif KR",Georgia,serif;font-size:clamp(1.65rem,7vw,2.15rem);font-weight:800;letter-spacing:-.04em}
-.sub{margin:0;color:#987781;font-size:.93rem;line-height:1.6}
-.ornament{display:flex;align-items:center;gap:12px;color:var(--gold);font-size:1rem}
-.ornament:before,.ornament:after{content:"";width:52px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
-.ornament:after{transform:rotate(180deg)}
-.wrap{position:relative;width:min(78vw,370px);aspect-ratio:1;padding:9px;border-radius:50%;background:linear-gradient(145deg,#fff8df,#c99b4d 35%,#fff2c8 55%,#b47d36 80%,#fff1c9);box-shadow:0 10px 24px rgba(110,65,44,.22),0 0 0 5px rgba(255,255,255,.9),0 0 0 7px rgba(199,154,69,.5)}
-.wrap:before{content:"";position:absolute;inset:3px;border:1px solid rgba(255,255,255,.9);border-radius:50%;z-index:1;pointer-events:none}
+body{min-height:100svh;overflow-x:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:17px;padding:32px 18px 40px;color:var(--ink);background:#f7f4ee}
+main{width:min(100%,520px);display:flex;flex-direction:column;align-items:center;gap:17px;text-align:center;padding:30px 20px 27px;border:1px solid #ddd4c8;border-radius:18px;background:#fffdf9;box-shadow:0 8px 24px rgba(70,55,40,.06)}
+.kicker{font-family:Georgia,serif;font-size:.72rem;letter-spacing:.16em;color:#9b8668}
+h1{margin:0;color:#66534b;font-family:"Noto Serif KR","Malgun Gothic",serif;font-size:clamp(1.5rem,6.5vw,2rem);font-weight:700;letter-spacing:-.045em}
+.sub{margin:0;color:#8a8179;font-size:.93rem;line-height:1.7}
+.ornament{display:flex;align-items:center;gap:12px;color:#b6a28b;font-size:.85rem}
+.ornament:before,.ornament:after{content:"";width:42px;height:1px;background:#d9cfc2}
+.wrap{position:relative;width:min(78vw,370px);aspect-ratio:1;padding:7px;border-radius:50%;background:#e8dfd2;border:1px solid #c9b99f;box-shadow:0 5px 12px rgba(70,55,40,.10)}
+.wrap:before{content:"";position:absolute;inset:3px;border:1px solid rgba(255,255,255,.65);border-radius:50%;z-index:1;pointer-events:none}
 canvas#wheel{width:100%;height:100%;display:block;border-radius:50%}
-.pointer{position:absolute;left:50%;top:-8px;transform:translateX(-50%);width:0;height:0;border-left:17px solid transparent;border-right:17px solid transparent;border-top:39px solid #9d5b42;filter:drop-shadow(0 3px 2px rgba(73,42,24,.28));z-index:3}
-.pointer:after{content:"";position:absolute;left:-7px;top:-38px;width:14px;height:14px;background:#f9e8b4;border-radius:50%;border:2px solid #9d5b42}
-button{font:inherit;font-weight:800;font-size:1.12rem;letter-spacing:.04em;padding:15px 46px;border:1px solid #a56a53;border-radius:999px;color:#fffaf2;background:linear-gradient(135deg,#b86b7e,#93485f 55%,#7e3e56);cursor:pointer;box-shadow:0 5px 0 #71394e,0 10px 22px rgba(126,62,86,.22);transition:transform .15s,filter .15s}
-button:active{transform:translateY(3px);box-shadow:0 2px 0 #71394e}
+.pointer{position:absolute;left:50%;top:-7px;transform:translateX(-50%);width:0;height:0;border-left:13px solid transparent;border-right:13px solid transparent;border-top:30px solid #7d6c5b;z-index:3}
+.pointer:after{content:"";position:absolute;left:-5px;top:-29px;width:10px;height:10px;background:#f8f3e9;border-radius:50%;border:1px solid #7d6c5b}
+button{font:inherit;font-weight:700;font-size:1.02rem;letter-spacing:.01em;padding:14px 34px;border:1px solid #75645a;border-radius:10px;color:#fffdf9;background:#75645a;cursor:pointer;box-shadow:0 2px 0 #5c4e46;transition:transform .15s,filter .15s}
+button:active{transform:translateY(2px);box-shadow:none}
 button:disabled{opacity:.68;cursor:default;transform:none}
-#result{min-height:2.8em;display:flex;align-items:center;justify-content:center;padding:0 8px;color:#a64f68;font-family:"Noto Serif KR",serif;font-size:clamp(1.25rem,5.8vw,1.8rem);font-weight:900;line-height:1.4;text-shadow:0 1px 0 #fff}
+#result{min-height:2.8em;display:flex;align-items:center;justify-content:center;padding:0 8px;color:#9b6867;font-family:"Noto Serif KR",serif;font-size:clamp(1.2rem,5.4vw,1.65rem);font-weight:700;line-height:1.4}
 #result.win{animation:pop .65s cubic-bezier(.2,1.5,.5,1) both}
-@keyframes pop{0%{transform:scale(.55);opacity:0}100%{transform:scale(1);opacity:1}}
-.foot{font-size:.76rem;color:#b08b8d;letter-spacing:.04em}
+@keyframes pop{0%{transform:scale(.75);opacity:0}100%{transform:scale(1);opacity:1}}
+.foot{font-size:.7rem;color:#a69a8c;letter-spacing:.06em}
 #fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:5}
 @media(max-height:720px){body{justify-content:flex-start;padding-top:16px}main{gap:12px;padding-top:20px;padding-bottom:18px}.wrap{width:min(68vw,310px)}}
 </style>
 </head>
 <body>
 <main>
-  <div class="kicker">A day to remember</div>
-  <h1>💍 축하의 룰렛 💍</h1>
+  <div class="kicker">WEDDING CELEBRATION</div>
+  <h1>민호 · 혜원 결혼 축하 룰렛</h1>
   <p class="sub">두 사람의 새로운 시작을 축하해 주세요<br>행운의 주인공은 누구일까요?</p>
-  <div class="ornament">✦　❀　✦</div>
+  <div class="ornament">♥</div>
   <div class="wrap"><div class="pointer"></div><canvas id="wheel"></canvas></div>
-  <button id="spin">행운의 룰렛 돌리기 ✨</button>
+  <button id="spin">룰렛 돌리기</button>
   <div id="result" aria-live="polite"></div>
-  <div class="foot">WITH LOVE · THANK YOU FOR CELEBRATING WITH US</div>
+  <div class="foot">함께 축하해 주셔서 감사합니다</div>
 </main>
 <canvas id="fx"></canvas>
 <script>
-const items=[{t:"5만원",c:"#a9a0a5"},{t:"50만원",c:"#d58a9d"},{t:"500만원",c:"#d4a64e"}];
+const items=[{t:"5만원",c:"#b9b7ad"},{t:"50만원",c:"#c58d87"},{t:"500만원",c:"#b9a47d"}];
 const N=items.length,SEG=360/N;
 const cv=document.getElementById("wheel"),ctx=cv.getContext("2d");
 let size=0,theta=0,spinning=false,lastTick=-1,audio;
 function resize(){const r=cv.getBoundingClientRect(),d=window.devicePixelRatio||1;size=r.width;cv.width=size*d;cv.height=size*d;ctx.setTransform(d,0,0,d,0,0);draw();}
-function draw(){const s=size,cx=s/2,R=s/2-5;ctx.clearRect(0,0,s,s);ctx.save();ctx.translate(cx,cx);ctx.rotate(theta*Math.PI/180);for(let i=0;i<N;i++){const a0=(i*SEG-90)*Math.PI/180,a1=((i+1)*SEG-90)*Math.PI/180;ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,R,a0,a1);ctx.closePath();ctx.fillStyle=items[i].c;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle="#fff7ed";ctx.stroke();ctx.save();ctx.rotate((a0+a1)/2);ctx.textAlign="right";ctx.textBaseline="middle";ctx.fillStyle="#fff";ctx.font="900 "+(s*.078)+"px sans-serif";ctx.shadowColor="rgba(80,40,40,.35)";ctx.shadowBlur=5;ctx.fillText(items[i].t,R-s*.075,0);ctx.restore();}ctx.restore();ctx.beginPath();ctx.arc(cx,cx,R,0,Math.PI*2);ctx.lineWidth=5;ctx.strokeStyle="#fff1c9";ctx.stroke();ctx.beginPath();ctx.arc(cx,cx,s*.075,0,Math.PI*2);ctx.fillStyle="#fff4d7";ctx.fill();ctx.lineWidth=3;ctx.strokeStyle="#b98742";ctx.stroke();ctx.fillStyle="#a66c4a";ctx.font="bold "+(s*.055)+"px serif";ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText("♥",cx,cx+1);}
+function draw(){const s=size,cx=s/2,R=s/2-5;ctx.clearRect(0,0,s,s);ctx.save();ctx.translate(cx,cx);ctx.rotate(theta*Math.PI/180);for(let i=0;i<N;i++){const a0=(i*SEG-90)*Math.PI/180,a1=((i+1)*SEG-90)*Math.PI/180;ctx.beginPath();ctx.moveTo(0,0);ctx.arc(0,0,R,a0,a1);ctx.closePath();ctx.fillStyle=items[i].c;ctx.fill();ctx.lineWidth=4;ctx.strokeStyle="#fffdf8";ctx.stroke();ctx.save();ctx.rotate((a0+a1)/2);ctx.textAlign="right";ctx.textBaseline="middle";ctx.fillStyle="#fff";ctx.font="900 "+(s*.078)+"px sans-serif";ctx.shadowColor="transparent";ctx.shadowBlur=0;ctx.fillText(items[i].t,R-s*.075,0);ctx.restore();}ctx.restore();ctx.beginPath();ctx.arc(cx,cx,R,0,Math.PI*2);ctx.lineWidth=4;ctx.strokeStyle="#e8dfd2";ctx.stroke();ctx.beginPath();ctx.arc(cx,cx,s*.075,0,Math.PI*2);ctx.fillStyle="#f8f3e9";ctx.fill();ctx.lineWidth=3;ctx.strokeStyle="#b9a47d";ctx.stroke();ctx.fillStyle="#75645a";ctx.font="bold "+(s*.055)+"px serif";ctx.textAlign="center";ctx.textBaseline="middle";ctx.fillText("♥",cx,cx+1);}
 function beep(f,d,v){try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=f;o.type="sine";g.gain.value=v||.035;o.connect(g);g.connect(audio.destination);o.start();g.gain.exponentialRampToValueAtTime(.0001,audio.currentTime+d);o.stop(audio.currentTime+d);}catch(e){}}
 const ease=t=>1-Math.pow(1-t,5);
 function spin(){if(spinning||hasSpun())return;spinning=true;const btn=document.getElementById("spin"),res=document.getElementById("result");btn.disabled=true;res.className="";res.textContent="";const edge=Math.random()<.5?240+1.5:360-1.5;const start=theta%360,target=360*7-edge,total=target-start,t0=performance.now(),dur=15000,from=start;function step(now){const p=Math.min(1,(now-t0)/dur);theta=from+total*ease(p);const idx=Math.floor(theta/(SEG/2));if(idx!==lastTick){lastTick=idx;beep(850,.055);}draw();if(p<1)requestAnimationFrame(step);else finish();}requestAnimationFrame(step);}
-function finish(){spinning=false;markSpun();lockBtn();const res=document.getElementById("result");res.textContent="🎉 민호, 혜원 결혼 축하해! 💐";res.className="win";[523,659,784,1047,1318].forEach((f,i)=>setTimeout(()=>beep(f,.28,.07),i*140));confetti();}
-function confetti(){const c=document.getElementById("fx"),x=c.getContext("2d"),d=window.devicePixelRatio||1;c.width=innerWidth*d;c.height=innerHeight*d;x.setTransform(d,0,0,d,0,0);const cols=["#d4a64e","#d58a9d","#fff0c2","#b86b7e","#f4c9d2"];const ps=Array.from({length:190},()=>({x:innerWidth/2,y:innerHeight*.42,vx:(Math.random()-.5)*17,vy:-Math.random()*17-3,s:Math.random()*8+4,c:cols[Math.random()*cols.length|0],r:Math.random()*6}));let f=0;(function loop(){x.clearRect(0,0,innerWidth,innerHeight);ps.forEach(p=>{p.vy+=.28;p.x+=p.vx;p.y+=p.vy;p.r+=.16;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/2,p.s,p.s*.7);x.restore();});if(++f<190)requestAnimationFrame(loop);else x.clearRect(0,0,innerWidth,innerHeight);})();}
+function finish(){spinning=false;markSpun();lockBtn();const res=document.getElementById("result");res.textContent="민호, 혜원 결혼 축하해!";res.className="win";[523,659,784,1047,1318].forEach((f,i)=>setTimeout(()=>beep(f,.28,.07),i*140));confetti();}
+function confetti(){const c=document.getElementById("fx"),x=c.getContext("2d"),d=window.devicePixelRatio||1;c.width=innerWidth*d;c.height=innerHeight*d;x.setTransform(d,0,0,d,0,0);const cols=["#b9a47d","#c58d87","#f0e4cc","#a98f7a"];const ps=Array.from({length:85},()=>({x:innerWidth/2,y:innerHeight*.42,vx:(Math.random()-.5)*17,vy:-Math.random()*17-3,s:Math.random()*8+4,c:cols[Math.random()*cols.length|0],r:Math.random()*6}));let f=0;(function loop(){x.clearRect(0,0,innerWidth,innerHeight);ps.forEach(p=>{p.vy+=.28;p.x+=p.vx;p.y+=p.vy;p.r+=.16;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/2,p.s,p.s*.7);x.restore();});if(++f<190)requestAnimationFrame(loop);else x.clearRect(0,0,innerWidth,innerHeight);})();}
 const KEY="wedding-roulette-done";
 function hasSpun(){try{return localStorage.getItem(KEY)==="1"}catch(e){return false}}
 function markSpun(){try{localStorage.setItem(KEY,"1")}catch(e){}}
